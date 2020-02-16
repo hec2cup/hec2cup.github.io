@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
-keywords: 友情链接
-comments: true
-menu: 链接
+description: outside links
+keywords: link
+comments: false
+menu: Link
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+
 
 {% for link in site.data.links %}
   {% if link.src == 'life' %}
@@ -16,7 +16,7 @@ permalink: /links/
   {% endif %}
 {% endfor %}
 
-> 友情链接
+
 
 {% for link in site.data.links %}
   {% if link.src == 'www' %}
