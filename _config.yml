@@ -4,9 +4,9 @@
 baseurl:
 url: https://hec2cup.github.io
 date_format: "ordinal"
-title: HEC Blogs
-subtitle: "track of research"
-description: "hec's website for blogs"
+title: hec
+subtitle: "HEC Blogs"
+description: "track of research"
 keywords: hec, hec2cup
 timezone: Asia/Shanghai
 encoding: "utf-8"
